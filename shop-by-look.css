@@ -1,0 +1,85 @@
+body {
+    text-align: center;
+    height: 100vh;
+}
+
+.shopable {
+    position: relative;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.shopable img{
+    width: 100%;
+    height: auto;
+    padding-top: 20px;
+}
+
+.overlayBtn {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    border-radius: 20px;
+}
+.overlayModal{
+    position: absolute;
+    padding-top: 20px;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(73, 66, 66, 0.5);
+    visibility: hidden;
+}
+
+#modalTop{
+    margin-top: 30px;
+    height: 80%;
+    width: 60%;
+    background-color: rgb(255, 255, 255);
+    visibility: hidden;
+  	display: flex;
+    flex-direction: row;
+  	border-radius: 20px;
+}
+
+
+#PImg, #PDets{
+    flex-grow: 1;
+  	width:50%;
+}
+
+
+#btn1{
+    bottom: 23%;
+    left: 6%;
+}
+#btn2{
+    bottom: 26%;
+    right: 15%;
+}
+#btn3{
+    top: 36%;
+    right: 56%;
+}
+
+
+#PImg {
+	height: 100%;
+  	width: 100%;
+}
+
+#PImg img{
+	height: 50%;
+  	width: auto;
+}
+
+#popoverContent img{
+	height: 100px;
+  	max-width: 200px; 
+}
+
+.popover{
+	font-size: 14px !important;
+}
+
+
